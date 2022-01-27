@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+.card{
+    width: 209px;
+    position:relative;
+    left: 481px;
+    margin: 50px;  
+    background-color: white;
+    padding: 15px;
+    border-radius: 6%;
+}
+.card img{
+    width: 188px;
+    height: 188px;
+    position: relative;
+    border-radius: 5%;
+    left: -6px;
+    
+}
+.text{
+   color:hsl(220, 15%, 55%);
+   text-align: center;
+   font-size: .8em;
+}
+.text span{
+    font-size: 1.2em;
+    font-weight: 600;
+    color:hsl(218, 44%, 22%);
+    margin: 10px 0 10px 0;
+    text-align:justify;
+    display: inline-block;
+}
